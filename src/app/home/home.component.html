@@ -1,0 +1,87 @@
+<main id="primary" class="site-main">
+  <!-- Master Curtain Effect -->
+  <app-curtain-effects></app-curtain-effects>
+
+  <!-- Back to top button -->
+  <div class="sk__back-to-top-wrap">
+    <a class="sk__back-to-top" href="#smooth-content"
+      ><span class="sk__back-to-top"></span
+    ></a>
+  </div>
+
+  <!-- Navigation Menu
+		================================================== -->
+  <div class="sk__mobile-menu-bar"></div>
+
+  <!-- Dynamically controlled with JS! -->
+  <a class="sk__mobile-main-logo" href="#"
+    ><img alt="Website logo." src="assets/images/Logo.png"
+  /></a>
+
+  <app-sidenav></app-sidenav>
+  <!-- /.sk__menu -->
+
+  <div id="smooth-wrapper" class="pushable-content">
+    <div id="smooth-content">
+      <app-social-icon-tooltip></app-social-icon-tooltip>
+
+      <app-slider></app-slider>
+
+      <section
+        class="sk__parallax-background-section sk__parallax-fixer-section sk__parallax-fixer-ignore-height overflow-hidden"
+        style="max-height: 0"
+      >
+        <div class="sk__parallax-background-element"></div>
+      </section>
+
+      <!-- About Us Section
+      ================================================== -->
+      <app-about></app-about>
+      <!-- /.sk__about-us-section -->
+
+      <section class="sk__deco-row-section">
+        <div class="container-fluid">
+          <div
+            class="row sk__deco-row dark-shade-7-bg dark-shade-5-border"
+          ></div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section
+      ================================================== -->
+      <app-portfolio></app-portfolio>
+      <!-- /.sk__portfolio-section -->
+
+      <!-- Featured Project Section
+      ================================================== -->
+      <app-project></app-project>
+      <!-- /.sk__featured-project-section -->
+
+      <div class="dark-shade-2-bg featured-project-padder"></div>
+
+      <!-- Skills Section
+      ================================================== -->
+      <app-skills></app-skills>
+      <!-- /.sk__skills -->
+
+      <!-- CTA Section (Warp CTA)
+      ================================================== -->
+      <app-call-to-action></app-call-to-action>
+
+      <!-- Contact Us Section
+      ================================================== -->
+      <app-contact></app-contact>
+      <!-- /.sk__contact-us -->
+
+      <!-- Footer
+      ================================================== -->
+      <app-footer></app-footer>
+
+      <!-- Helper div for inserting before scripts
+      ================================================== -->
+      <div class="sk__body-end"></div>
+    </div>
+    <!-- /#smooth-content -->
+  </div>
+  <!-- /#smooth-wrapper -->
+</main>

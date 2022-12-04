@@ -1,4 +1,7 @@
-# StudioAngularApp
+# Studio-Angular-App
+
+## Deployed Testing Link
+### https://duality-productions.web.app/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2.
 
